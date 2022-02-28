@@ -209,7 +209,7 @@ img {
 
 /* Home */
 .home {
-  height: calc(100vh - 3rem);
+  height: calc(50vh - 3rem);
   row-gap: 0.5rem;
 }
 
@@ -245,7 +245,7 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 45%;
   width: 294px;
 }
 
@@ -451,7 +451,7 @@ img {
   }
 
   .home {
-    height: 100vh;
+    height: 50vh;
   }
 
   .home__data {
@@ -472,7 +472,7 @@ img {
 
   .home__img {
     width: 457px;
-    bottom: 15%;
+    bottom: 65%;
   }
 
   .about__container,
