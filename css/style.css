@@ -245,8 +245,9 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 45%;
   width: 294px;
+  bottom: 45%;
+  padding-top: 5rem;
 }
 
 .home__img img {
@@ -476,7 +477,7 @@ img {
     margin-right: var(--mb-4);
   }
 
-  .home__img {
+  .home__img{
     width: 457px;
     bottom: 65%;
   }
@@ -521,7 +522,9 @@ img {
     margin-right: auto;
   }
 
-  /* .home__img {
-    right: 10%;
-  } */
+  .home__img {
+    position: absolute;
+    right: 0;
+    top: 80px;
+  }
 }
