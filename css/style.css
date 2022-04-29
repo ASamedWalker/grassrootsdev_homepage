@@ -207,7 +207,7 @@ img {
 
 /* Home */
 .home {
-  height: calc(50vh - 3rem);
+  height: 100vh;
   row-gap: 0.5rem;
 }
 
