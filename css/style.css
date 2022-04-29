@@ -207,7 +207,7 @@ img {
 
 /* Home */
 .home {
-  height: 100vh;
+  height: calc(50vh - 3rem);
   row-gap: 0.5rem;
 }
 
@@ -525,6 +525,6 @@ img {
   .home__img {
     position: absolute;
     right: 0;
-    top: 80px;
+    top: 40px;
   }
 }
