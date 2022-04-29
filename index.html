@@ -1,280 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- FontAwesome Icon -->
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Box icon -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+  <!-- FontAwesome Icon -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Samed Walker</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="l-header">
-      <nav class="nav bd-grid">
-        <div>
-          <a href="#home" class="nav__logo">Samed</a>
-        </div>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a href="#project" class="nav__link">Projects</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <!-- Box icon -->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
 
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Samed Walker</title>
+</head>
 
-    <main class="l-main">
-      <!-- Home -->
-      <section class="home bd-grid" id="home">
-        <div class="home__data">
-          <h1 class="home__title">
-            Hi,<br />I'm <span class="home__title-color">Samed</span><br />Software Engineer
-          </h1>
-
-          <a
-            target="__blank"
-            href="documents/Abdul_Samed_Walker_Resume_22.pdf"
-            class="button"
-            >Resume</a
-          >
-        </div>
-        <div class="home__social">
-          <a
-            href="https://www.linkedin.com/in/abdulsamed-walker/"
-            class="home__social-icon"
-            target="__blank"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a
-            href="https://github.com/ASamedWalker"
-            target="__blank"
-            class="home__social-icon"
-            ><i class="bx bxl-github"></i
-          ></a>
-        </div>
-
-        <div class="home__img">
-          <img src="./img/samed.jpg" alt="Samed Walker" />
-        </div>
-      </section>
-
-      <!-- About -->
-      <section class="about section" id="about">
-        <h2 class="section-title">About</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="./img/newpic.jpg" alt="Samed Walker" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle">I'm Abdul Samed Walker</h2>
-            <p class="about__text">
-              I am a software engineer interested in both Front-End and Back-End
-              Development. My passion for software engineering inspired me to
-              explore different web stacks and technologies in web development.
-              On a personal level, I am an insatiable learner-highly-motivated,
-              results-oriented, and self-driven, and am constantly seeking to
-              improve my skills and stay up to date on the latest trends in Full
-              Stack Development Cycle. In addition, I have the ability to adapt
-              to any type of team environment; I am highly collaborative and
-              strive for results in group setting. I also have the ability to
-              work independently while staying on schedule and meeting those
-              tight deadlines. I am currently developing proficiencies in
-              MongoDB, Express, React, Node.js, and SQL.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills -->
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
-
-        <div id="icon__wrapper">
-          <div id="skills-icon">
-            <div class="html">
-              <i class="bx bxl-html5 skills__icon"></i>
-            </div>
-            <div class="css">
-              <i class="bx bxl-css3 skills__icon"></i>
-            </div>
-            <div class="javascript">
-              <i class="bx bxl-javascript skills__icon"></i>
-            </div>
-            <div class="git">
-              <i class="bx bxl-git skills__icon"></i>
-            </div>
-            <div class="git">
-              <i class="bx bxl-nodejs skills__icon"></i>
-            </div>
-            <div class="git">
-              <i class="bx bxl-react skills__icon"></i>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Project -->
-      <section class="project section" id="project">
-        <h2 class="section-title">Projects</h2>
-
-        <div class="project__container bd-grid">
-          <div class="project__img">
-            <a
-              target="_blank"
-              class="mastermind"
-              href="https://asamedwalker.github.io/MastermindGame/"
-              rel="noopener"
-            >
-              <img src="./img/project-1.png" alt="Mastermind Game" />
-            </a>
-          </div>
-          <div>
-            <h2 class="about__subtitle">Mastermind</h2>
-            <p class="project__text">
-              Mastermind is a web-based application game of the Mastermind board
-              game. The game utilized a programming language called javascript.
-              I also implemented javascript’s ES6 classes, ES6 modules, and
-              parcel to bundle modules together. I also implemented Modul,View,
-              and Controller (MVC) design patterns to give structure to my code.
-            </p>
-            <ul class="list float-left">
-              <li class="text-primary">HTML</li>
-              <li class="text-primary">CSS</li>
-              <li class="text-primary">Javascript</li>
-              <li class="text-primary">Random API</li>
-            </ul>
-            <button class="play">
-              <a
-                target="_blank"
-                href="https://asamedwalker.github.io/MastermindGame/"
-                rel="noopener"
-                >Play Now</a
-              >
-            </button>
-          </div>
-          <div class="project__img">
-            <a
-              target="_blank"
-              class="foodtracker"
-              href="https://asamedwalker.github.io/FoodTrackWebpack/"
-              rel="noopener"
-            >
-              <img src="img/project-2.png" alt="Food Tracker" />
-            </a>
-          </div>
-          <div>
-            <h2 class="about__subtitle">Food Tracker</h2>
-            <p class="project__text">
-              FoodTracker is an application that uses Google's Firebase Cloud
-              API to accept only read-only preselected food names in the select
-              dropdown list that prevents write-only from getting access to the
-              API cloud data storage but only. The application displays a chart
-              showing the number of calories in each of the food items selected.
-            </p>
-            <ul class="list float-left">
-              <li class="text-primary">HTML</li>
-              <li class="text-primary">CSS</li>
-              <li class="text-primary">Javascript</li>
-              <li class="text-primary">Firebase</li>
-              <li class="text-primary">Chart.js</li>
-              <li class="text-primary">Snackbar.js</li>
-            </ul>
-            <button class="play">
-              <a
-                target="_blank"
-                href="https://asamedwalker.github.io/FoodTrackWebpack/"
-                rel="noopener"
-                >Try Now</a
-              >
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact -->
-      <section class="contact section" id="contact">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact__container bd-grid">
-          <form name="contact" method="POST" data-netlify="true" class="contact__form">
-            <input type="text" name="name" placeholder="Name" class="contact__input" />
-            <input type="mail" name="email" placeholder="Email" class="contact__input" />
-            <textarea
-              name="message"
-              id=""
-              cols="0"
-              rows="10"
-              class="contact__input"
-            ></textarea>
-            <input type="submit" value="Send" class="contact__button button" />
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer  -->
-    <footer class="footer">
-      <p class="footer__title">Samed</p>
-      <div class="footer__social">
-        <a
-          target="__blank"
-          href="https://www.linkedin.com/in/abdulsamed-walker/"
-          class="footer__icon"
-          ><i class="fab fa-linkedin-in fa-1x"></i
-        ></a>
-        <a
-          href="https://github.com/ASamedWalker"
-          target="__blank"
-          class="footer__icon"
-          ><i class="fab fa-github fa-1x"></i
-        ></a>
-        <a
-          href="https://twitter.com/GrassRoots_Dev"
-          target="__blank"
-          class="footer__icon"
-          ><i class="fab fa-twitter fa-1x"></i
-        ></a>
+<body>
+  <!-- Header -->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#home" class="nav__logo">Samed</a>
       </div>
-      <p>&#169; 2022 copyright all right reserved</p>
-    </footer>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#project" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </div>
 
-    <!-- Reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Main JS-->
-    <script src="js/script.js"></script>
-  </body>
+  <main class="l-main">
+    <!-- Home -->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">
+          Hi,<br />I'm <span class="home__title-color">Samed</span><br />Software Engineer
+        </h1>
+
+        <a target="__blank" href="documents/Abdul_Samed_Walker_resume_new.pdf" class="button">Resume</a>
+      </div>
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/abdulsamed-walker/" class="home__social-icon" target="__blank"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/ASamedWalker" target="__blank" class="home__social-icon"><i
+            class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home__img">
+        <img src="./img/samed.jpg" alt="Samed Walker" />
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="./img/newpic.jpg" alt="Samed Walker" />
+        </div>
+
+        <div>
+          <h2 class="about__subtitle">I'm Abdul Samed Walker</h2>
+          <p class="about__text">
+            I am a software engineer interested in both Front-End and Back-End
+            Development. My passion for software engineering inspired me to
+            explore different web stacks and technologies in web development.
+            On a personal level, I am an insatiable learner-highly-motivated,
+            results-oriented, and self-driven, and am constantly seeking to
+            improve my skills and stay up to date on the latest trends in Full
+            Stack Development Cycle. In addition, I have the ability to adapt
+            to any type of team environment; I am highly collaborative and
+            strive for results in group setting. I also have the ability to
+            work independently while staying on schedule and meeting those
+            tight deadlines. I am currently developing proficiencies in
+            MongoDB, Express, React, Node.js, and SQL.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div id="icon__wrapper">
+        <div id="skills-icon">
+          <div class="html">
+            <i class="bx bxl-html5 skills__icon"></i>
+          </div>
+          <div class="css">
+            <i class="bx bxl-css3 skills__icon"></i>
+          </div>
+          <div class="javascript">
+            <i class="bx bxl-javascript skills__icon"></i>
+          </div>
+          <div class="git">
+            <i class="bx bxl-git skills__icon"></i>
+          </div>
+          <div class="git">
+            <i class="bx bxl-nodejs skills__icon"></i>
+          </div>
+          <div class="git">
+            <i class="bx bxl-react skills__icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section class="project section" id="project">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project__container bd-grid">
+        <div class="project__img">
+          <a target="_blank" class="mastermind" href="https://asamedwalker.github.io/MastermindGame/" rel="noopener">
+            <img src="./img/project-1.png" alt="Mastermind Game" />
+          </a>
+        </div>
+        <div>
+          <h2 class="about__subtitle">Mastermind</h2>
+          <p class="project__text">
+            Mastermind is a web-based application game of the Mastermind board
+            game. The game utilized a programming language called javascript.
+            I also implemented javascript’s ES6 classes, ES6 modules, and
+            parcel to bundle modules together. I also implemented Modul,View,
+            and Controller (MVC) design patterns to give structure to my code.
+          </p>
+          <ul class="list float-left">
+            <li class="text-primary">HTML</li>
+            <li class="text-primary">CSS</li>
+            <li class="text-primary">Javascript</li>
+            <li class="text-primary">Random API</li>
+          </ul>
+          <button class="play">
+            <a target="_blank" href="https://asamedwalker.github.io/MastermindGame/" rel="noopener">Play Now</a>
+          </button>
+        </div>
+        <div class="project__img">
+          <a target="_blank" class="foodtracker" href="https://asamedwalker.github.io/FoodTrackWebpack/" rel="noopener">
+            <img src="img/project-2.png" alt="Food Tracker" />
+          </a>
+        </div>
+        <div>
+          <h2 class="about__subtitle">Food Tracker</h2>
+          <p class="project__text">
+            FoodTracker is an application that uses Google's Firebase Cloud
+            API to accept only read-only preselected food names in the select
+            dropdown list that prevents write-only from getting access to the
+            API cloud data storage but only. The application displays a chart
+            showing the number of calories in each of the food items selected.
+          </p>
+          <ul class="list float-left">
+            <li class="text-primary">HTML</li>
+            <li class="text-primary">CSS</li>
+            <li class="text-primary">Javascript</li>
+            <li class="text-primary">Firebase</li>
+            <li class="text-primary">Chart.js</li>
+            <li class="text-primary">Snackbar.js</li>
+          </ul>
+          <button class="play">
+            <a target="_blank" href="https://asamedwalker.github.io/FoodTrackWebpack/" rel="noopener">Try Now</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact__container bd-grid">
+        <form name="contact" method="POST" data-netlify="true" class="contact__form">
+          <input type="text" name="name" placeholder="Name" class="contact__input" />
+          <input type="mail" name="email" placeholder="Email" class="contact__input" />
+          <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+          <input type="submit" value="Send" class="contact__button button" />
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer  -->
+  <footer class="footer">
+    <p class="footer__title">Samed</p>
+    <div class="footer__social">
+      <a target="__blank" href="https://www.linkedin.com/in/abdulsamed-walker/" class="footer__icon"><i
+          class="fab fa-linkedin-in fa-1x"></i></a>
+      <a href="https://github.com/ASamedWalker" target="__blank" class="footer__icon"><i
+          class="fab fa-github fa-1x"></i></a>
+      <a href="https://twitter.com/GrassRoots_Dev" target="__blank" class="footer__icon"><i
+          class="fab fa-twitter fa-1x"></i></a>
+    </div>
+    <p>&#169; 2022 copyright all right reserved</p>
+  </footer>
+
+  <!-- Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Main JS-->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
