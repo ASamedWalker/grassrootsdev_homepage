@@ -143,7 +143,6 @@ img {
   font-weight: var(--font-semi);
 }
 
-
 @media screen and (max-width: 768px) {
   .nav__menu {
     position: fixed;
@@ -156,7 +155,6 @@ img {
     transition: 0.5s;
   }
 }
-
 
 .nav__item {
   margin-bottom: var(--mb-4);
@@ -215,6 +213,7 @@ img {
 
 .home__data {
   align-self: center;
+  padding-top: 10rem;
 }
 
 .home__title {
@@ -233,6 +232,7 @@ img {
 
 .home__social-icon {
   width: max-content;
+  margin-top: var(--mb-2);
   margin-bottom: var(--mb-2);
   font-size: 2.5rem;
   color: var(--second-color);
@@ -273,38 +273,46 @@ img {
   background-color: var(--first-color);
   padding: 10px;
   position: relative;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   text-decoration: none;
-  background-image: linear-gradient(bottom, rgb(19, 43, 110) 0%, rgb(51, 115, 212) 100%);
+  background-image: linear-gradient(
+    bottom,
+    rgb(19, 43, 110) 0%,
+    rgb(51, 115, 212) 100%
+  );
   box-shadow: inset 0px 1px 0px #7f9df1, 0px 6px 0px #0d276f;
   border-radius: 5px;
 }
 
 .play:active {
-  top:7px;
-	background-image: linear-gradient(bottom, rgb(30, 95, 170) 100%, rgb(51, 121, 212) 0%);
-	box-shadow: inset 0px 1px 0px #7fb4f1, inset 0px -1px 0px #0d2c6f;
-	color: #156785;
-	text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
-	background: rgb(44,160,202);
+  top: 7px;
+  background-image: linear-gradient(
+    bottom,
+    rgb(30, 95, 170) 100%,
+    rgb(51, 121, 212) 0%
+  );
+  box-shadow: inset 0px 1px 0px #7fb4f1, inset 0px -1px 0px #0d2c6f;
+  color: #156785;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
+  background: rgb(44, 160, 202);
 }
 
 .play::before {
-  background-color:#072239;
-	content:"";
-	display:block;
-	position:absolute;
-	width:100%;
-	height:100%;
-	padding-left:2px;
-	padding-right:2px;
-	padding-bottom:4px;
-	left:-2px;
-	top:5px;
-	z-index:-1;
-	border-radius: 6px;
-	box-shadow: 0px 1px 0px #fff;
+  background-color: #072239;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 4px;
+  left: -2px;
+  top: 5px;
+  z-index: -1;
+  border-radius: 6px;
+  box-shadow: 0px 1px 0px #fff;
 }
 
 .play:active::before {
@@ -319,7 +327,7 @@ img {
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 .about__img {
@@ -330,7 +338,6 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
-
 
 /* Skills */
 #icon__wrapper {
@@ -426,7 +433,6 @@ img {
   margin: 0 var(--mb-2);
 }
 
-
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -507,10 +513,7 @@ img {
   .contact__container {
     justify-items: center;
   }
-
 }
-
-
 
 @media screen and (min-width: 1024px) {
   .bd-grid {
